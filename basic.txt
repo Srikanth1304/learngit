@@ -1,0 +1,23 @@
+git --version
+        git version 2.35.1.windows.2
+git init (onces in starting a project )
+git status (regular checking)
+
+cd .git  
+ls
+        Mode                 LastWriteTime         Length Name
+        ----                 -------------         ------ ----
+        d-----        10-05-2024     12:36                hooks
+        d-----        10-05-2024     12:36                info
+        d-----        10-05-2024     12:36                objects
+        d-----        10-05-2024     12:36                refs
+        -a----        10-05-2024     12:36            130 config
+        -a----        10-05-2024     12:36             73 description
+        -a----        10-05-2024     12:36             23 HEAD
+
+_____________________________________________________________
+Working area to github:
+        working area -> git add -> stagging area -> git commit -> Repo -> git push ->GIthub
+_____________________________________________________________
+pwd- present working directory 
+_____________________________________-
