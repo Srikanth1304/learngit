@@ -18,6 +18,31 @@ ls
 _____________________________________________________________
 Working area to github:
         working area -> git add -> stagging area -> git commit -> Repo -> git push ->GIthub
+
+   4 stages in adding github
+        working area                 (add .)
+        Stagging area                 (commit)
+        Repository                    (push)
+        github
 _____________________________________________________________
 pwd- present working directory 
 _____________________________________-
+recently created files are untracked by github , so to make it track , it is necessary to use add comand 
+///git add <file>
+//git add .    adds all the files 
+_____________________________________________________________
+After adding suceessfully , file reaches to staging area, requries to commit the change
+///git commit -m '<some meaage>'        
+_____________________________________________________________
+///git log 
+provides the commit id 
+(HEAD -> main,origin/main)
+Author: Git_Srikanth <srikanthchebrolu727@gmail.com>
+Date:   Fri May 10 15:20:51 2024 +0530
+
+///git log --oneline 
+02540e6 (HEAD -> main, origin/main) basic
+b9e16fb f
+
+How log command found thouse email id ans stuff, it will answer by 'config command '
+_____________________________________________________________
